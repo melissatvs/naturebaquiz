@@ -5,7 +5,7 @@ import QuizLogo from '../src/components/QuizLogo'
 import QuizBackground from '../src/components/QuizBackground'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
-import Head from 'next/head'
+import HeadMeta from '../src/components/HeadMeta';
 
 
 // const BackgroundImage = styled.div`
@@ -29,23 +29,7 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
       <>
-        <Head>
-          <title>Quiz Natureba</title>
-          <meta name="title" content="Quiz Natureba" />
-          <meta name="description" content="" />
-
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://naturebaquiz.melissatvs.vercel.app/" />
-          <meta property="og:title" content="Quiz Natureba" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content={db.bg} />
-
-          <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://naturebaquiz.melissatvs.vercel.app/" />
-          <meta property="twitter:title" content="Quiz Natureba" />
-          <meta property="twitter:description" content="" />
-          <meta property="twitter:image" content={db.bg} />
-        </Head>
+        <HeadMeta />
         <QuizBackground backgroundImage={db.bg}>
           <QuizContainer>
             <QuizLogo />
