@@ -28,7 +28,7 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
-      <div>
+      <>
         <Head>
           <title>Quiz Natureba</title>
           <meta name="title" content="Quiz Natureba" />
@@ -69,6 +69,6 @@ export default function Home() {
           </QuizContainer>
           <GitHubCorner projectUrl="https://github.com/melissatvs" />
         </QuizBackground>
-      </div>
+      </>
   );
 }
