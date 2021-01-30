@@ -1,30 +1,177 @@
 {
-    "bg": "https://cdn.pixabay.com/photo/2017/11/06/17/04/vegetables-2924239_960_720.jpg",
+    "bg": "https://i.imgur.com/LpoLe6y.jpg",
     "title": "Natureba! 🥦🍅🥝🥕🍊🌽",
     "description": "Será que você domina o mundo natureba? Teste agora os seus conhecimentos!",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://i.imgur.com/7wJ5E7t.jpg",
+        "title": "Fala aí, qual é o nome disso?",
+        "description": "Essa é fácil",
+        "answer": 0,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+           "Figo",
+           "Ameixa",
+           "Pitaya",
+           "Fígado"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://i.imgur.com/7Nu64oL.png",
+        "title": "Qual nome e tipo?",
+        "description": "E agora?",
+        "answer": 1,
+        "alternatives": [
+          "Amendoim / Raíz",
+          "Amendoim / Leguminosa",
+          "Feijão Andu / Leguminosa",
+          "Vagem / Leguminosa"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/rdNDbp4.jpg",
+        "title": "Que verdura é essa?",
+        "description": "Folha verde de comer",
+        "answer": 3,
+        "alternatives": [
+          "Rúcula",
+          "Agrião",
+          "Chicória",
+          "Couve"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/0sG72n9.jpg",
+        "title": "O que é isso?",
+        "description": "Folha verde",
+        "answer": 3,
+        "alternatives": [
+          "Folhagem da casa da vó",
+          "Orquídea bambu (sem flores)",
+          "Bambu",
+          "Cana-de-açúcar"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/TUhLV7U.jpg",
+        "title": "O que é isso?",
+        "description": "Raízes",
+        "answer": 2,
+        "alternatives": [
+          "Gengibre",
+          "Mandioquinha / Batata baroa",
+          "Cúrcuma / Açafrão-da-terra",
+          "Urucum"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/T16Cr13.jpg",
+        "title": "O que é isso?",
+        "description": "Estranho...",
+        "answer": 2,
+        "alternatives": [
+          "Fruta-do-conde / Fruta-pinha",
+          "Atemoia",
+          "Jaca",
+          "Durião"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/JT9us5X.jpg",
+        "title": "O que é isso?",
+        "description": "Parece que tem pelos...",
+        "answer": 3,
+        "alternatives": [
+          "Pêssego",
+          "Damasco",
+          "Jambo / Jambo-rosa",
+          "Nêspera / Ameixa-amarela"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/K7qq9Oi.jpg",
+        "title": "O que é isso?",
+        "description": "Agora foi longe demais",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+          "Trigo",
+          "Sorgo",
+          "Linhaça",
+          "Chia"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/PIpJGsO.png",
+        "title": "O que é isso?",
+        "description": "Bolinhas",
+        "answer": 1,
+        "alternatives": [
+          "Feijão bolinha",
+          "Soja",
+          "Lentilha amarela",
+          "Fava"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/OFL8YVu.jpg",
+        "title": "Essa raíz é comestível?",
+        "description": "Já comi e não sabia",
+        "answer": 1,
+        "alternatives": [
+          "Sim, é raiz de árvores africanas (tem sabor agridoce)",
+          "Sim, é mandioca / macaxeira / aipim",
+          "Não, está na cara que é duro feito pedra",
+          "Não, isso é venenoso"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/v6Ea9bl.jpg",
+        "title": "Que planta é essa?",
+        "description": "Planta da vó, certeza",
+        "answer": 0,
+        "alternatives": [
+          "Babosa / Aloe vera",
+          "Suculenta gigante",
+          "Rosa de pedra",
+          "Bromélia"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/hL3INBF.jpg",
+        "title": "O que é isso?",
+        "description": "Esse parece fácil",
+        "answer": 2,
+        "alternatives": [
+          "Mamão",
+          "Abacate",
+          "Maracujá doce",
+          "Jurubeba"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/k5riOST.jpg",
+        "title": "O que é isso?",
+        "description": "Esse é gostoso",
+        "answer": 0,
+        "alternatives": [
+          "Acelga",
+          "Almeirão pão de açúcar",
+          "Alface",
+          "Repolho"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/Rk95TIf.jpg",
+        "title": "Que flor é essa?",
+        "description": "Essa eu até como",
+        "answer": 3,
+        "alternatives": [
+          "Rosa",
+          "Crisântemo",
+          "Lírio",
+          "Hibisco"
         ]
       }
+      
     ],
     "external": [
       ""
