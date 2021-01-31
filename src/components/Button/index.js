@@ -2,15 +2,6 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const Button = styled.button`
-  /*border: none;
-  width: 100%;
-  padding: 10px;
-  color: ${({ theme }) => theme.colors.contrastTextPrimary};
-  background-color: ${({ theme }) => theme.colors.primaryDisable};
-
-  border-radius: ${({ theme }) => theme.borderRadius};
-  margin-top: 20px;*/
-
   background-color: ${({ theme }) => theme.colors.secondary};
   color: ${({ theme }) => theme.colors.contrastText};
   border-radius: ${({ theme }) => theme.borderRadius};
@@ -29,7 +20,7 @@ const Button = styled.button`
     opacity: .5;
   }
   &:disabled {
-    background-color: ${({ theme }) => theme.colors.primaryDisable};
+    background: #979797;
     cursor: not-allowed;
   }
 `;

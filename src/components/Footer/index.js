@@ -3,13 +3,14 @@ import styled from 'styled-components';
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
   background-color: ${({ theme }) => theme.colors.mainBg}DD;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   align-items: center;
   border-radius: 4px;
   img {
     width: 58px;
-    margin-right: 23px;
+    margin-left: 15px;
+    margin-right: 20px;
   }
   a {
     color: white;

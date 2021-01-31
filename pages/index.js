@@ -5,7 +5,7 @@ import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
-import QuizBegin from '../src/components/QuizBegin';
+import QuizBegin from '../src/components/QuizGame/Begin';
 import QuizContainer from '../src/components/QuizContainer';
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
           </Widget.Content>
         </Widget>
 
-        <Widget>
+        <Widget style={{ display: 'none' }}>
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
