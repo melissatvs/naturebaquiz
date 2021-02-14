@@ -23,11 +23,11 @@ export default function Home() {
           </Widget.Content>
         </Widget>
 
-        <Widget style={{ display: 'none' }}>
+        <Widget>
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
-            <p>lorem ipsum dolor sit amet...</p>
+            {db.external.map((link) => link)}
           </Widget.Content>
         </Widget>
         <Footer />

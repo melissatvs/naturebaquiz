@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import { BiHappy, BiSad } from 'react-icons/bi';
 import Widget from '../../Widget';
@@ -70,8 +71,8 @@ function QuestionWidget({
                   style={{ display: 'none' }}
                   id={alternativeId}
                   name={questionId}
-                  type="radio"
-                  onChange={() => setSelectedAlternative(index)}
+                  type="button"
+                  onClick={() => setSelectedAlternative(index)}
                 />
                 {alternative}
                 {isQuestionSubmited && isSelected && (isCorrect ? <BiHappy style={{ verticalAlign: 'middle' }} /> : <BiSad style={{ verticalAlign: 'middle' }} />)}

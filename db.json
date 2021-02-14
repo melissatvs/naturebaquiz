@@ -174,7 +174,8 @@
       
     ],
     "external": [
-      ""
+      "https://escquiz.fabs-silva.vercel.app/",
+      "https://thesimpsonsquiz.gabriel-brasil.vercel.app/"
     ],
     "theme": {
       "colors": {
